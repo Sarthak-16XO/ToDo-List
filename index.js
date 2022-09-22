@@ -2,7 +2,6 @@ function addTask() {
 
     var taskname = document.getElementById("taskname").value;
     var todo = document.getElementById("todo");
-
     var todoDiv = document.createElement("div");
     var todoName = document.createElement("li");
     var deleteBtn = document.createElement("i");
@@ -17,7 +16,6 @@ function addTask() {
     todoDiv.appendChild(deleteBtn);
 
     todo.appendChild(todoDiv);
-
 }
 
 var todo = document.getElementById("todo");
